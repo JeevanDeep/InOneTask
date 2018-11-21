@@ -1,4 +1,4 @@
-package com.example.jeevan.inonetask
+package com.example.jeevan.inonetask.fragment
 
 
 import android.os.Bundle
@@ -11,6 +11,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import com.example.jeevan.inonetask.*
+import com.example.jeevan.inonetask.adapter.ContactsAdapter
+import com.example.jeevan.inonetask.model.ContactsModel
+import com.example.jeevan.inonetask.model.MoveToSecondTabEvent
+import com.example.jeevan.inonetask.viewholder.ContactsViewHolder
 import com.karumi.dexter.Dexter
 import com.karumi.dexter.PermissionToken
 import com.karumi.dexter.listener.PermissionDeniedResponse

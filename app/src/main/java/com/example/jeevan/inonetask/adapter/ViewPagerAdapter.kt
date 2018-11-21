@@ -1,4 +1,4 @@
-package com.example.jeevan.inonetask
+package com.example.jeevan.inonetask.adapter
 
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager

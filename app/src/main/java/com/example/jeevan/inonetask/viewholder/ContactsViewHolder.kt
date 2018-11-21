@@ -1,9 +1,11 @@
-package com.example.jeevan.inonetask
+package com.example.jeevan.inonetask.viewholder
 
 import android.support.constraint.ConstraintLayout
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.widget.TextView
+import com.example.jeevan.inonetask.model.ContactsModel
+import com.example.jeevan.inonetask.R
 import kotlinx.android.synthetic.main.contacts_item_row.view.*
 
 class ContactsViewHolder(itemView: View, var listener: ContactListener) : RecyclerView.ViewHolder(itemView) {

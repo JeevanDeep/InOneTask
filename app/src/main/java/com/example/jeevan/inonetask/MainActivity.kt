@@ -2,6 +2,10 @@ package com.example.jeevan.inonetask
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.example.jeevan.inonetask.adapter.ViewPagerAdapter
+import com.example.jeevan.inonetask.fragment.CallFragment
+import com.example.jeevan.inonetask.fragment.ContactsFragment
+import com.example.jeevan.inonetask.model.MoveToSecondTabEvent
 import kotlinx.android.synthetic.main.activity_main.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

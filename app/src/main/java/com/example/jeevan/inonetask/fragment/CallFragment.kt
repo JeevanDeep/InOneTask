@@ -1,4 +1,4 @@
-package com.example.jeevan.inonetask
+package com.example.jeevan.inonetask.fragment
 
 import android.content.Intent
 import android.net.Uri
@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.jeevan.inonetask.model.ContactsModel
+import com.example.jeevan.inonetask.R
 import kotlinx.android.synthetic.main.fragment_call.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

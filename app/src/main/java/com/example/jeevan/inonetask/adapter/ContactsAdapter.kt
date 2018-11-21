@@ -1,8 +1,11 @@
-package com.example.jeevan.inonetask
+package com.example.jeevan.inonetask.adapter
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import com.example.jeevan.inonetask.model.ContactsModel
+import com.example.jeevan.inonetask.viewholder.ContactsViewHolder
+import com.example.jeevan.inonetask.R
 
 class ContactsAdapter : RecyclerView.Adapter<ContactsViewHolder> {
     private val contactsList: MutableList<ContactsModel>

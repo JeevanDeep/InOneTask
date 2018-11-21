@@ -1,4 +1,4 @@
-package com.example.jeevan.inonetask;
+package com.example.jeevan.inonetask.model;
 
 public class ContactsModel {
     public ContactsModel(String phoneNumber, String name) {
